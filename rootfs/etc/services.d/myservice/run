@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec s6-notifyoncheck -c false sleep infinity
