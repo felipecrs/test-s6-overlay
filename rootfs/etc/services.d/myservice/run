@@ -1,3 +1,3 @@
 #!/bin/bash
 
-exec s6-notifyoncheck -c false sleep infinity
+exec s6-notifyoncheck -c 'sleep 2s' /etc/services.d/myservice/service.sh
