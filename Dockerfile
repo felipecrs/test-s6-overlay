@@ -1,6 +1,6 @@
 # Use your favorite image
 FROM ubuntu
-ARG S6_OVERLAY_VERSION=3.1.6.0
+ARG S6_OVERLAY_VERSION=3.1.6.1
 
 RUN apt-get update && apt-get install xz-utils -y
 
